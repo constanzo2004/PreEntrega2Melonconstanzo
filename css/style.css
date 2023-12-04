@@ -1,0 +1,171 @@
+/* index */
+
+/* Estilos de header */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.img {
+    height: 60px;
+}
+
+body {
+    background-color: #F7F0E8;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+    background-color: pink;
+
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+
+
+}
+
+/* estilos del main */
+main {
+    color: black;
+
+
+}
+
+main h1 {
+
+    text-align: center;
+    font-family: 'Cinzel Decorativo', serif;
+    font-size: 50px;
+
+
+
+}
+
+.title-sub-principal{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+    
+    
+}
+
+
+
+
+main div {
+    margin-top: 50px;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 50px;
+
+}
+
+main div p {
+    font-size: 25px;
+
+}
+
+main div img {
+    width: 60%;
+
+
+
+}
+
+main section {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    padding: 25px;
+}
+
+main section p {
+    text-align: center;
+}
+
+/* Estilos del footer */
+
+
+footer {
+    background-color: pink;
+    height: 220px;
+
+}
+
+.footer-payments {
+    width: 100%;
+    max-width: 414px
+}
+
+.link {
+    list-style: none;
+
+}
+
+.subtitulo {
+    margin-top: 10px;
+    list-style: none;
+}
+
+.title-link {
+    margin-left: 30px;
+    margin-top: 15px;
+    border-bottom: solid thick #bababa;
+}
+
+.title-footer {
+    margin-left: 32px;
+    font-size: 1rem;
+    margin-top: 10px;
+    border-bottom: solid thick #bababa;
+
+
+}
+
+.links-contacto {
+    list-style: none;
+}
+
+.title-contacto {
+    margin-top: 15px;
+    margin-left: 26px;
+    border-bottom: solid thick #bababa;
+}
+
+
+.carousel-inner{
+    margin-top: 5px;
+}
+
+.fondo-sobremi{
+    width: 100%;
+}
+
+.text-container{
+    position: absolute;
+    z-index: 1;   
+    
+}
+
+.text-sobremi{
+    color: whitesmoke;
+    text-align: center;
+}
