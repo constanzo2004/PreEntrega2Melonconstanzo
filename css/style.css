@@ -75,13 +75,14 @@ main {
 
 footer {
     background-color: pink;
-    height: 220px;
+    height: 220%;
+    display: fñex;
 
 }
 
 .footer-payments {
     width: 100%;
-    max-width: 414px
+    width: 414px
 }
 
 .link {
@@ -118,6 +119,8 @@ footer {
     margin-left: 26px;
     border-bottom: solid thick #bababa;
 }
+
+/* estilos del carousel */
 
 
 .carousel-inner{
@@ -249,6 +252,16 @@ footer {
 
 
 }
+
+
+@media (max-width ;600px) {
+    footer{
+        height: 100%;
+        color: pink;
+    }
+}
+
+ 
 
 
 
